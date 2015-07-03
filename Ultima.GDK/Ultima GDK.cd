@@ -1,0 +1,584 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Font Name="Tahoma" Size="8.25" />
+  <Class Name="Ultima.GDK.BaseGumpCollection" BaseTypeListCollapsed="true">
+    <Position X="9.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Collections\BaseGumpCollection.cs</FileName>
+      <HashCode>ACIAAAAAAAAAQBAQCQgABAQAAAAAgAAAAAAAAABQIAE=</HashCode>
+    </TypeIdentifier>
+    <Members>
+      <Field Name="items" Hidden="true" />
+    </Members>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Ultima.GDK.XmlSettings">
+    <Position X="5.75" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>XmlSettings.cs</FileName>
+      <HashCode>AAAAgIAAIAAAAgAACAAAAAAAAACAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <Members>
+      <Field Name="settings" Hidden="true" />
+    </Members>
+  </Class>
+  <Class Name="Ultima.GDK.DesignerFrame">
+    <Position X="7.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Controls\DesignerFrame.cs</FileName>
+      <HashCode>gICFhAAAGAQAFAgAAAAAYAADAl4oAAIoIAAAMQQiAAA=</HashCode>
+    </TypeIdentifier>
+    <Members>
+      <Field Name="gump" Hidden="true" />
+      <Field Name="mouseAt" Hidden="true" />
+      <Field Name="mouseDownAt" Hidden="true" />
+      <Field Name="movable" Hidden="true" />
+      <Field Name="moveTest" Hidden="true" />
+      <Field Name="redoStack" Hidden="true" />
+      <Field Name="resizeType" Hidden="true" />
+      <Field Name="resizing" Hidden="true" />
+      <Field Name="SelectionBrush" Hidden="true" />
+      <Field Name="undoStack" Hidden="true" />
+    </Members>
+  </Class>
+  <Class Name="Ultima.GDK.GumpIndexEditor" Collapsed="true">
+    <Position X="14.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Controls\GumpIndexEditor.cs</FileName>
+      <HashCode>AAAAAAAAAgAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ultima.GDK.HuePickerControl" Collapsed="true">
+    <Position X="16.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Controls\HueControl.cs</FileName>
+      <HashCode>SQEAAAhAACABgAAACACAAAACAkAAAAAAAAABAIAQASA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ultima.GDK.HueEditor" Collapsed="true">
+    <Position X="14.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Controls\HueEditor.cs</FileName>
+      <HashCode>AAAAgAAAAgAAAABAAAAAAAAAIAAAAAAAAAAAEAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ultima.GDK.ItemIndexEditor" Collapsed="true">
+    <Position X="18" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Controls\ItemIndexEditor.cs</FileName>
+      <HashCode>AAAAAAAAAgAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ultima.GDK.ItemSelector" Collapsed="true">
+    <Position X="16.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Controls\ItemSelector.cs</FileName>
+      <HashCode>AICACAEAAKAAAACAQADAAABCAAhAQAAICkEAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ultima.GDK.XpLabel">
+    <Position X="5.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Controls\xpLabel.cs</FileName>
+      <HashCode>AACAACEAASBAAAAAAACAAAAXAAAAAAACAAAAAcAQBAA=</HashCode>
+    </TypeIdentifier>
+    <Members>
+      <Field Name="_bkgcolo1" Hidden="true" />
+      <Field Name="_bkgcolo2" Hidden="true" />
+      <Field Name="_bkgColorScheme" Hidden="true" />
+      <Field Name="_shadow" Hidden="true" />
+      <Field Name="_taStyle" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+    </Members>
+  </Class>
+  <Class Name="Ultima.GDK.ArtSelectorDialog">
+    <Position X="19" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Dialogs\ArtSelectorDialog.cs</FileName>
+      <HashCode>AAAAAIAAACAAAAEAAACAAEACACkABAAAAAEAAAIBAAA=</HashCode>
+    </TypeIdentifier>
+    <Members>
+      <Field Name="btnCancel" Hidden="true" />
+      <Field Name="btnOk" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Field Name="index" Hidden="true" />
+      <Field Name="itemSelector" Hidden="true" />
+      <Field Name="pictureBox" Hidden="true" />
+    </Members>
+  </Class>
+  <Class Name="Ultima.GDK.CreateGumpDialog">
+    <Position X="16.5" Y="8.75" Width="2.25" />
+    <TypeIdentifier>
+      <FileName>Dialogs\CreateGumpDialog.cs</FileName>
+      <HashCode>AAAAAIAAACAACBMAAACAAGACAIAiBAAEAAAAAABBAJA=</HashCode>
+    </TypeIdentifier>
+    <Members>
+      <Field Name="btnCancel" Hidden="true" />
+      <Field Name="btnGetPath" Hidden="true" />
+      <Field Name="btnOk" Hidden="true" />
+      <Field Name="cboGumpSize" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Field Name="folderBrowserDialog" Hidden="true" />
+      <Field Name="label1" Hidden="true" />
+      <Field Name="label2" Hidden="true" />
+      <Field Name="label3" Hidden="true" />
+      <Field Name="lblTitle" Hidden="true" />
+      <Field Name="resolution" Hidden="true" />
+      <Field Name="txbGumpName" Hidden="true" />
+      <Field Name="txbPath" Hidden="true" />
+    </Members>
+  </Class>
+  <Class Name="Ultima.GDK.InputDialog">
+    <Position X="19" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Dialogs\InputDialog.cs</FileName>
+      <HashCode>AAAAAIAAACAABAEAAACAAEACEQAABAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <Members>
+      <Field Name="btnCancel" Hidden="true" />
+      <Field Name="btnOk" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Field Name="txbInput" Hidden="true" />
+    </Members>
+  </Class>
+  <Class Name="Ultima.GDK.Gump">
+    <Position X="1" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Gumps\Gump.cs</FileName>
+      <HashCode>IICEgoJGGOAAXEAEIRiSBDQQDC8uwCAABFTgaSBg4QE=</HashCode>
+    </TypeIdentifier>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+  </Class>
+  <Class Name="Ultima.GDK.ArgumentProcessor">
+    <Position X="3" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>ArgumentProcessor.cs</FileName>
+      <HashCode>AAQAAAAAAAAAAYJAAAAAAAAAAAAAAFABAAAAAAAAAkA=</HashCode>
+    </TypeIdentifier>
+    <Members>
+      <Field Name="args" Hidden="true" />
+      <Field Name="FileFlag" Hidden="true" />
+      <Field Name="fileToOpen" Hidden="true" />
+    </Members>
+  </Class>
+  <Class Name="Ultima.GDK.Artwork">
+    <Position X="3" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Artwork.cs</FileName>
+      <HashCode>ACAAAAAAAAAAAAAAIAAAAAAAQAAAAAAAAAAAQEAAAAA=</HashCode>
+    </TypeIdentifier>
+    <Members>
+      <Field Name="cache" Hidden="true" />
+      <Field Name="EmptyHue" Hidden="true" />
+    </Members>
+  </Class>
+  <Class Name="Ultima.GDK.GumpCollectionEventArgs">
+    <Position X="8" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>EventArgs.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAQAAAAEAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <Members>
+      <Field Name="item" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+  </Class>
+  <Class Name="Ultima.GDK.BaseGumpsSelectedEventArgs">
+    <Position X="13.75" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>EventArgs.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <Members>
+      <Field Name="gump" Hidden="true" />
+    </Members>
+  </Class>
+  <Class Name="Ultima.GDK.HotKeyEventArgs">
+    <Position X="13.75" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>EventArgs.cs</FileName>
+      <HashCode>AAABAAAAAQAABAAAAAQAQAAAAEAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <Members>
+      <Field Name="designer" Hidden="true" />
+      <Field Name="gump" Hidden="true" />
+      <Field Name="keyData" Hidden="true" />
+    </Members>
+  </Class>
+  <Class Name="Ultima.GDK.GumpState">
+    <Position X="3" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>GumpState.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAACAAAAA=</HashCode>
+    </TypeIdentifier>
+    <Members>
+      <Field Name="stateCollection" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+  </Class>
+  <Class Name="Ultima.GDK.HotKey">
+    <Position X="3" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>HotKeyManager.cs</FileName>
+      <HashCode>AAAAAAAAAAAIAAAACAAAAAQAAAAEAAAAAAAAACAAAAA=</HashCode>
+    </TypeIdentifier>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+  </Class>
+  <Class Name="Ultima.GDK.HotKeyManager">
+    <Position X="9.75" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>HotKeyManager.cs</FileName>
+      <HashCode>AQAAAAAAAAAAAgQAAAAgAQAAAAIFAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <Members>
+      <Field Name="assemblies" Hidden="true" />
+      <Field Name="assemblyTable" Hidden="true" />
+      <Field Name="hotKeyTable" Hidden="true" />
+      <Field Name="namespaces" Hidden="true" />
+    </Members>
+  </Class>
+  <Class Name="Ultima.GDK.StateStack" Collapsed="true">
+    <Position X="18.25" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>StateStack.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ultima.GDK.RedoStack" Collapsed="true">
+    <Position X="17.25" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>StateStack.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ultima.GDK.UndoStack" Collapsed="true">
+    <Position X="19.5" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>StateStack.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ultima.GDK.Utility">
+    <Position X="21.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Utility.cs</FileName>
+      <HashCode>gAKgAIAAAACIgAAYhAAAAAAwQABCAIAQQAgAwAACBAo=</HashCode>
+    </TypeIdentifier>
+    <Members>
+      <Field Name="emptyColor" Hidden="true" />
+      <Field Name="font" Hidden="true" />
+      <Field Name="mouseHitSuccess" Hidden="true" />
+      <Field Name="rand" Hidden="true" />
+      <Field Name="stringList" Hidden="true" />
+    </Members>
+  </Class>
+  <Class Name="Ultima.GDK.Graphing.C2DPushGraph">
+    <Position X="9.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Controls\2DPushGraph.cs</FileName>
+      <HashCode>AEmOAVAtAy0BEgEIQACIgIACAAAAcAADEEAAEEsACAE=</HashCode>
+    </TypeIdentifier>
+    <Members>
+      <Field Name="components" Hidden="true" />
+      <Field Name="m_bAutoScale" Hidden="true" />
+      <Field Name="m_bHighQuality" Hidden="true" />
+      <Field Name="m_bMaxLabelSet" Hidden="true" />
+      <Field Name="m_bMinLabelSet" Hidden="true" />
+      <Field Name="m_bShowGrid" Hidden="true" />
+      <Field Name="m_bShowMinMax" Hidden="true" />
+      <Field Name="m_GridColor" Hidden="true" />
+      <Field Name="m_GridSize" Hidden="true" />
+      <Field Name="m_LineInterval" Hidden="true" />
+      <Field Name="m_Lines" Hidden="true" />
+      <Field Name="m_MaxCoords" Hidden="true" />
+      <Field Name="m_MaxLabel" Hidden="true" />
+      <Field Name="m_MaxPeek" Hidden="true" />
+      <Field Name="m_MinLabel" Hidden="true" />
+      <Field Name="m_MinPeek" Hidden="true" />
+      <Field Name="m_MoveOffset" Hidden="true" />
+      <Field Name="m_OffsetX" Hidden="true" />
+      <Field Name="m_TextColor" Hidden="true" />
+    </Members>
+    <NestedTypes>
+      <Class Name="Ultima.GDK.Graphing.C2DPushGraph.LineHandle" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Controls\2DPushGraph.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="Ultima.GDK.Graphing.C2DPushGraph.Line" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Controls\2DPushGraph.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+  </Class>
+  <Class Name="ACControls.ImageFlip">
+    <Position X="7.75" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Controls\ImageFlip.cs</FileName>
+      <HashCode>gwCAQEAAACAAAARBAACgAAACQAAAABAAAAAACASBAAA=</HashCode>
+    </TypeIdentifier>
+    <Members>
+      <Field Name="components" Hidden="true" />
+      <Field Name="m_divider" Hidden="true" />
+      <Field Name="m_height" Hidden="true" />
+      <Field Name="m_heightflip" Hidden="true" />
+      <Field Name="m_image" Hidden="true" />
+      <Field Name="m_store" Hidden="true" />
+    </Members>
+  </Class>
+  <Class Name="Ultima.GDK.Controls.Toolbox">
+    <Position X="5.75" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Controls\Toolbox.cs</FileName>
+      <HashCode>AIACBAABADQAABBGCACEQWAGggQBACIBAAEgACAQBAA=</HashCode>
+    </TypeIdentifier>
+    <Members>
+      <Field Name="btnAlphaField" Hidden="true" />
+      <Field Name="btnBackground" Hidden="true" />
+      <Field Name="btnButton" Hidden="true" />
+      <Field Name="btnCheckbox" Hidden="true" />
+      <Field Name="btnHtmlbox" Hidden="true" />
+      <Field Name="btnImage" Hidden="true" />
+      <Field Name="btnItem" Hidden="true" />
+      <Field Name="btnLabel" Hidden="true" />
+      <Field Name="btnRadio" Hidden="true" />
+      <Field Name="btnTextEntry" Hidden="true" />
+      <Field Name="btnTiledImage" Hidden="true" />
+      <Field Name="clickHandlers" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Field Name="flowLayoutPanel" Hidden="true" />
+      <Field Name="lbltop" Hidden="true" />
+      <Field Name="toolTip" Hidden="true" />
+      <Field Name="xpLabel1" Hidden="true" />
+    </Members>
+  </Class>
+  <Class Name="Ultima.GDK.Gumps.AlphaGump">
+    <Position X="22" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Gumps\AlphaGump.cs</FileName>
+      <HashCode>AAAAAAAAAgAABAAEAAAAAAAQAAAAAAAAAAEAAAAAABA=</HashCode>
+    </TypeIdentifier>
+    <Members>
+      <Field Name="brush" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+  </Class>
+  <Class Name="Ultima.GDK.Gumps.BackgroundGump">
+    <Position X="3.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Gumps\BackgroundGump.cs</FileName>
+      <HashCode>AAAAAAAABAAABAAEAAAAAEAQEAAAAAAAEAEAAAAAABA=</HashCode>
+    </TypeIdentifier>
+    <Members>
+      <Field Name="images" Hidden="true" />
+    </Members>
+  </Class>
+  <Class Name="Ultima.GDK.Gumps.BaseGump">
+    <Position X="1" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Gumps\BaseGump.cs</FileName>
+      <HashCode>CACkgAgEHCAAlMBIAIKAQEwSgLJEIFAAIAEAAwQjIpM=</HashCode>
+    </TypeIdentifier>
+    <Members>
+      <Field Name="hue" Hidden="true" />
+      <Field Name="img" Hidden="true" />
+      <Field Name="index" Hidden="true" />
+      <Field Name="lastMouseLoc" Hidden="true" />
+      <Field Name="location" Hidden="true" />
+      <Field Name="moving" Hidden="true" />
+      <Field Name="name" Hidden="true" />
+      <Field Name="parent" Hidden="true" />
+      <Field Name="redraw" Hidden="true" />
+      <Field Name="resizeType" Hidden="true" />
+      <Field Name="resizing" Hidden="true" />
+      <Field Name="selected" Hidden="true" />
+      <Field Name="size" Hidden="true" />
+      <Field Name="SuspendInvalidation" Hidden="true" />
+      <Field Name="z" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Ultima.GDK.Gumps.ButtonGump">
+    <Position X="14.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Gumps\ButtonGump.cs</FileName>
+      <HashCode>AQAAAAEAAARQAAAEEAAAAAAQACBAACAACAEgAEgAABA=</HashCode>
+    </TypeIdentifier>
+    <Members>
+      <Field Name="buttonState" Hidden="true" />
+      <Field Name="buttonType" Hidden="true" />
+      <Field Name="normalID" Hidden="true" />
+      <Field Name="page" Hidden="true" />
+      <Field Name="pressedID" Hidden="true" />
+      <Field Name="value" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+  </Class>
+  <Class Name="Ultima.GDK.Gumps.CheckboxGump">
+    <Position X="5.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Gumps\CheckboxGump.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAABA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ultima.GDK.Gumps.HTMLGump">
+    <Position X="5.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Gumps\HTMLGump.cs</FileName>
+      <HashCode>AAQAEAACAAAABgAEAAAAAAAQECBAABAIAAEQCAAEABA=</HashCode>
+    </TypeIdentifier>
+    <Members>
+      <Field Name="cliloc" Hidden="true" />
+      <Field Name="images" Hidden="true" />
+      <Field Name="scrollBarImages" Hidden="true" />
+      <Field Name="showBackground" Hidden="true" />
+      <Field Name="showScrollbar" Hidden="true" />
+      <Field Name="text" Hidden="true" />
+      <Field Name="textType" Hidden="true" />
+    </Members>
+  </Class>
+  <Class Name="Ultima.GDK.Gumps.ImageGump">
+    <Position X="7.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Gumps\ImageGump.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAABA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ultima.GDK.Gumps.ItemGump">
+    <Position X="10" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Gumps\ItemGump.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAQAAAAAAAAAAEAAAAAABA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ultima.GDK.Gumps.LabelGump">
+    <Position X="12.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Gumps\LabelGump.cs</FileName>
+      <HashCode>AAIAAAAAEAAAABAEAAAAAAAQAAAAAAAAAAEAAAACABA=</HashCode>
+    </TypeIdentifier>
+    <Members>
+      <Field Name="font" Hidden="true" />
+      <Field Name="label" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+  </Class>
+  <Class Name="Ultima.GDK.Gumps.RadioGump">
+    <Position X="3.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Gumps\RadioGump.cs</FileName>
+      <HashCode>AAAAAAAAAABAEAAEABAAAAAQACBAAiAAAAMgAEAAABA=</HashCode>
+    </TypeIdentifier>
+    <Members>
+      <Field Name="checkedID" Hidden="true" />
+      <Field Name="checkState" Hidden="true" />
+      <Field Name="normalID" Hidden="true" />
+      <Field Name="value" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+  </Class>
+  <Class Name="Ultima.GDK.Gumps.TextEntryGump">
+    <Position X="17" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Gumps\TextEntryGump.cs</FileName>
+      <HashCode>AAABAAAAAgAABAAEAAAAAAAQACBAAAAIAAEACAAAARA=</HashCode>
+    </TypeIdentifier>
+    <Members>
+      <Field Name="brush" Hidden="true" />
+      <Field Name="entryId" Hidden="true" />
+      <Field Name="text" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+  </Class>
+  <Class Name="Ultima.GDK.Gumps.TiledImageGump">
+    <Position X="19.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Gumps\TiledImageGump.cs</FileName>
+      <HashCode>AAAAAAAAAAAABAAEAAAAAAAQAAAAAAAAAAAAAAAAABA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="Ultima.GDK.KeyData">
+    <Position X="3" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>HotKeyManager.cs</FileName>
+      <HashCode>AAAAAAAEAAAAAAwAAAAAAAAAAAAAAAAAAIAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <Members>
+      <Field Name="Alt" Hidden="true" />
+      <Field Name="Control" Hidden="true" />
+      <Field Name="Key" Hidden="true" />
+      <Field Name="Shift" Hidden="true" />
+    </Members>
+  </Struct>
+  <Enum Name="Ultima.GDK.BackColorSchemeType">
+    <Position X="13.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Controls\xpLabel.cs</FileName>
+      <HashCode>AAAAAQAAAAAAAACAAAAABAAAAAAAQAAAIAQAAAAAEAg=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Ultima.GDK.ArtType">
+    <Position X="11.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Enums.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAEAEAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Ultima.GDK.Gumps.ResizeType">
+    <Position X="11.75" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Gumps\BaseGump.cs</FileName>
+      <HashCode>AgAAAgAIAAAAABAAACAAAQAAAAAAAAAAAAAAAAkAAEA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Ultima.GDK.Gumps.ButtonType">
+    <Position X="11.75" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Gumps\ButtonGump.cs</FileName>
+      <HashCode>AAAAAAAAAAAQAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Ultima.GDK.Gumps.ButtonState">
+    <Position X="13.75" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Gumps\ButtonGump.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAEAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Ultima.GDK.Gumps.TextType">
+    <Position X="13.75" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Gumps\HTMLGump.cs</FileName>
+      <HashCode>AAAAAAAEAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Delegate Name="Ultima.GDK.HotKeyEventHandler" Collapsed="true">
+    <Position X="11.75" Y="14.5" Width="1.75" />
+    <TypeIdentifier>
+      <FileName>HotKeyManager.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAABAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Delegate>
+</ClassDiagram>

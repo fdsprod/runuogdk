@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/runuogdk/!svn/ver/1/src/Ultima.GDK/Controls
+END
+DesignerFrame.cs
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/runuogdk/!svn/ver/2/src/Ultima.GDK/Controls/DesignerFrame.cs
+END
+ItemSelector.resx
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/runuogdk/!svn/ver/1/src/Ultima.GDK/Controls/ItemSelector.resx
+END
+HueControl.cs
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/runuogdk/!svn/ver/1/src/Ultima.GDK/Controls/HueControl.cs
+END
+Toolbox.Designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/runuogdk/!svn/ver/1/src/Ultima.GDK/Controls/Toolbox.Designer.cs
+END
+Toolbox.cs
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/runuogdk/!svn/ver/1/src/Ultima.GDK/Controls/Toolbox.cs
+END
+xpLabel.cs
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/runuogdk/!svn/ver/1/src/Ultima.GDK/Controls/xpLabel.cs
+END
+2DPushGraph.cs
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/runuogdk/!svn/ver/1/src/Ultima.GDK/Controls/2DPushGraph.cs
+END
+HueEditor.cs
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/runuogdk/!svn/ver/1/src/Ultima.GDK/Controls/HueEditor.cs
+END
+ImageScroller.cs
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/runuogdk/!svn/ver/1/src/Ultima.GDK/Controls/ImageScroller.cs
+END
+ImageFlip.cs
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/runuogdk/!svn/ver/1/src/Ultima.GDK/Controls/ImageFlip.cs
+END
+ItemIndexEditor.cs
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/runuogdk/!svn/ver/4/src/Ultima.GDK/Controls/ItemIndexEditor.cs
+END
+ItemSelector.Designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/runuogdk/!svn/ver/4/src/Ultima.GDK/Controls/ItemSelector.Designer.cs
+END
+ItemSelector.cs
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/runuogdk/!svn/ver/5/src/Ultima.GDK/Controls/ItemSelector.cs
+END
+Toolbox.resx
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/runuogdk/!svn/ver/1/src/Ultima.GDK/Controls/Toolbox.resx
+END
+ImageScrollerItem.cs
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/runuogdk/!svn/ver/1/src/Ultima.GDK/Controls/ImageScrollerItem.cs
+END
+GumpIndexEditor.cs
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/runuogdk/!svn/ver/4/src/Ultima.GDK/Controls/GumpIndexEditor.cs
+END
+ImageFlip.resx
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/runuogdk/!svn/ver/1/src/Ultima.GDK/Controls/ImageFlip.resx
+END

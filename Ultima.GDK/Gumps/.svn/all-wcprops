@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/runuogdk/!svn/ver/1/src/Ultima.GDK/Gumps
+END
+ImageGump.cs
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/runuogdk/!svn/ver/1/src/Ultima.GDK/Gumps/ImageGump.cs
+END
+HTMLGump.cs
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/runuogdk/!svn/ver/4/src/Ultima.GDK/Gumps/HTMLGump.cs
+END
+TiledImageGump.cs
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/runuogdk/!svn/ver/1/src/Ultima.GDK/Gumps/TiledImageGump.cs
+END
+AlphaGump.cs
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/runuogdk/!svn/ver/4/src/Ultima.GDK/Gumps/AlphaGump.cs
+END
+CheckboxGump.cs
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/runuogdk/!svn/ver/1/src/Ultima.GDK/Gumps/CheckboxGump.cs
+END
+TextEntryGump.cs
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/runuogdk/!svn/ver/1/src/Ultima.GDK/Gumps/TextEntryGump.cs
+END
+BaseGump.cs
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/runuogdk/!svn/ver/4/src/Ultima.GDK/Gumps/BaseGump.cs
+END
+ButtonGump.cs
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/runuogdk/!svn/ver/1/src/Ultima.GDK/Gumps/ButtonGump.cs
+END
+ItemGump.cs
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/runuogdk/!svn/ver/4/src/Ultima.GDK/Gumps/ItemGump.cs
+END
+RadioGump.cs
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/runuogdk/!svn/ver/1/src/Ultima.GDK/Gumps/RadioGump.cs
+END
+BackgroundGump.cs
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/runuogdk/!svn/ver/1/src/Ultima.GDK/Gumps/BackgroundGump.cs
+END
+Gump.cs
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/runuogdk/!svn/ver/4/src/Ultima.GDK/Gumps/Gump.cs
+END
+LabelGump.cs
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/runuogdk/!svn/ver/1/src/Ultima.GDK/Gumps/LabelGump.cs
+END

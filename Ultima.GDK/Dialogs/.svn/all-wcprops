@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/runuogdk/!svn/ver/1/src/Ultima.GDK/Dialogs
+END
+CreateGumpDialog.Designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/runuogdk/!svn/ver/4/src/Ultima.GDK/Dialogs/CreateGumpDialog.Designer.cs
+END
+InputDialog.resx
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/runuogdk/!svn/ver/1/src/Ultima.GDK/Dialogs/InputDialog.resx
+END
+CreateGumpDialog.cs
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/runuogdk/!svn/ver/1/src/Ultima.GDK/Dialogs/CreateGumpDialog.cs
+END
+GumpArtSelectorDialog.resx
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/runuogdk/!svn/ver/4/src/Ultima.GDK/Dialogs/GumpArtSelectorDialog.resx
+END
+InputDialog.Designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/runuogdk/!svn/ver/1/src/Ultima.GDK/Dialogs/InputDialog.Designer.cs
+END
+InputDialog.cs
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/runuogdk/!svn/ver/1/src/Ultima.GDK/Dialogs/InputDialog.cs
+END
+GumpArtSelectorDialog.Designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/runuogdk/!svn/ver/4/src/Ultima.GDK/Dialogs/GumpArtSelectorDialog.Designer.cs
+END
+GumpArtSelectorDialog.cs
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/runuogdk/!svn/ver/4/src/Ultima.GDK/Dialogs/GumpArtSelectorDialog.cs
+END
+ItemArtSelectorDialog.resx
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/runuogdk/!svn/ver/4/src/Ultima.GDK/Dialogs/ItemArtSelectorDialog.resx
+END
+ItemArtSelectorDialog.Designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/runuogdk/!svn/ver/4/src/Ultima.GDK/Dialogs/ItemArtSelectorDialog.Designer.cs
+END
+ItemArtSelectorDialog.cs
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/runuogdk/!svn/ver/4/src/Ultima.GDK/Dialogs/ItemArtSelectorDialog.cs
+END
+CreateGumpDialog.resx
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/runuogdk/!svn/ver/1/src/Ultima.GDK/Dialogs/CreateGumpDialog.resx
+END

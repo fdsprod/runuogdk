@@ -1,0 +1,40 @@
+8
+
+dir
+1
+http://www.runuoforge.org/svn/runuogdk/src/Ultima.GDK/Plugins
+http://www.runuoforge.org/svn/runuogdk
+
+
+
+2007-10-12T18:56:47.368648Z
+1
+jeff
+
+
+svn:special svn:externals svn:needs-lock
+
+IPlugin.cs
+file
+
+
+
+
+2007-10-07T06:55:01.515625Z
+16a91c40514b0a8fe12885467617f489
+2007-10-12T18:56:47.368648Z
+1
+jeff
+
+BasePlugin.cs
+file
+
+
+
+
+2007-10-07T19:29:01.421875Z
+fda0823e335d4a8ff11b1940db799715
+2007-10-12T18:56:47.368648Z
+1
+jeff
+

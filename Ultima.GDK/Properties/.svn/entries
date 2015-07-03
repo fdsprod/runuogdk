@@ -1,0 +1,52 @@
+8
+
+dir
+1
+http://www.runuoforge.org/svn/runuogdk/src/Ultima.GDK/Properties
+http://www.runuoforge.org/svn/runuogdk
+
+
+
+2007-10-12T18:56:47.368648Z
+1
+jeff
+
+
+svn:special svn:externals svn:needs-lock
+
+AssemblyInfo.cs
+file
+6
+
+
+
+2007-10-24T07:06:36.056750Z
+e8b52f2b8be0f6916723a20ce6e956f8
+2007-10-24T07:17:18.946852Z
+6
+jeff
+
+Resources.resx
+file
+
+
+
+
+2007-10-04T05:41:35.890625Z
+9e90bb92c9b870d8cfbe16f69a387639
+2007-10-12T18:56:47.368648Z
+1
+jeff
+
+Resources.Designer.cs
+file
+
+
+
+
+2007-10-04T05:41:35.875000Z
+c2a27af2fd40d14d6a255bdb3899d15d
+2007-10-12T18:56:47.368648Z
+1
+jeff
+

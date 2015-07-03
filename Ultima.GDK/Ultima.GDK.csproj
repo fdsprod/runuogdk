@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{4B68EC6E-E408-42B7-9A9C-053D10339554}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Ultima.GDK</RootNamespace>
+    <AssemblyName>Ultima.GDK</AssemblyName>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <StartupObject>
+    </StartupObject>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="UOFont, Version=1.0.1506.38608, Culture=neutral" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ArgumentProcessor.cs" />
+    <Compile Include="Artwork.cs" />
+    <Compile Include="Collections\BaseGumpCollection.cs" />
+    <Compile Include="Collections\SyntaxList.cs" />
+    <Compile Include="Controls\2DPushGraph.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\DesignerFrame.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\GumpIndexEditor.cs" />
+    <Compile Include="Controls\HueControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\HueEditor.cs" />
+    <Compile Include="Controls\ImageFlip.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\ImageScroller.cs" />
+    <Compile Include="Controls\ImageScrollerItem.cs" />
+    <Compile Include="Controls\ItemIndexEditor.cs" />
+    <Compile Include="Controls\ItemSelector.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\ItemSelector.Designer.cs">
+      <DependentUpon>ItemSelector.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Toolbox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\Toolbox.Designer.cs">
+      <DependentUpon>Toolbox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\xpLabel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Dialogs\GumpArtSelectorDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\GumpArtSelectorDialog.Designer.cs">
+      <DependentUpon>GumpArtSelectorDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\CreateGumpDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\CreateGumpDialog.Designer.cs">
+      <DependentUpon>CreateGumpDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\InputDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\InputDialog.Designer.cs">
+      <DependentUpon>InputDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\ItemArtSelectorDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\ItemArtSelectorDialog.Designer.cs">
+      <DependentUpon>ItemArtSelectorDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Enums.cs" />
+    <Compile Include="EventArgs.cs" />
+    <Compile Include="GumpState.cs" />
+    <Compile Include="Gumps\AlphaGump.cs" />
+    <Compile Include="Gumps\BackgroundGump.cs" />
+    <Compile Include="Gumps\BaseGump.cs" />
+    <Compile Include="Gumps\ButtonGump.cs" />
+    <Compile Include="Gumps\CheckboxGump.cs" />
+    <Compile Include="Gumps\Gump.cs" />
+    <Compile Include="Gumps\HTMLGump.cs" />
+    <Compile Include="Gumps\ImageGump.cs" />
+    <Compile Include="Gumps\ItemGump.cs" />
+    <Compile Include="Gumps\LabelGump.cs" />
+    <Compile Include="Gumps\RadioGump.cs" />
+    <Compile Include="Gumps\TextEntryGump.cs" />
+    <Compile Include="Gumps\TiledImageGump.cs" />
+    <Compile Include="HotKeyManager.cs" />
+    <Compile Include="Plugins\BasePlugin.cs" />
+    <Compile Include="Plugins\IPlugin.cs" />
+    <Compile Include="Project.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs" />
+    <Compile Include="StateStack.cs" />
+    <Compile Include="Utility.cs" />
+    <Compile Include="XmlSettings.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Ultima GDK.cd" />
+    <None Include="UOFont.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Controls\ImageFlip.resx">
+      <DependentUpon>ImageFlip.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\ItemSelector.resx">
+      <DependentUpon>ItemSelector.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Toolbox.resx">
+      <DependentUpon>Toolbox.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\GumpArtSelectorDialog.resx">
+      <DependentUpon>GumpArtSelectorDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\CreateGumpDialog.resx">
+      <DependentUpon>CreateGumpDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\InputDialog.resx">
+      <DependentUpon>InputDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\ItemArtSelectorDialog.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ItemArtSelectorDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Ultima\Ultima.csproj">
+      <Project>{AE4B665E-81CE-401F-875C-62305C797932}</Project>
+      <Name>Ultima</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

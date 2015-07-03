@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Hotkeys>
+  <References>
+    <Namespace name="System"/>
+    <Namespace name="System.IO"/>
+    <Namespace name="System.Xml"/>
+    <Namespace name="System.Windows.Forms"/>
+    <Namespace name="System.Collections.Generic"/>
+    <Namespace name="Ultima"/>
+    <Namespace name="Ultima.GDK"/>
+    <Namespace name="Ultima.GDK.Gumps"/>
+  </References>
+  <Hotkey name="SelectAll" compile="false" control="true" alt="false" shift="false" key="A">
+    if(Gump != null)
+      Gump.SelectAll();
+  </Hotkey>
+  <Hotkey name="Cut" compile="false" control="true" alt ="false" shift="false" key="X">
+    if(Gump != null)
+    {
+      Designer.Copy(this, EventArgs.Empty);
+      foreach(BaseGump bg in Gump.GetSelectedGumps())
+      {
+        Gump.Items.Remove(bg);
+      }
+    }
+  </Hotkey>
+  <Hotkey name="Copy" compile="false" control="true" alt="false" shift="false" key="C">
+    if(Gump != null)
+      Designer.Copy(this, EventArgs.Empty);
+  </Hotkey>
+  <Hotkey name="Paste" compile="false" control="true" alt="false" shift="false" key="V">
+    if(Gump != null)
+      Designer.Paste(this, EventArgs.Empty);
+  </Hotkey>
+  <Hotkey name="MoveLeft" compile="false" control="false" alt="false" shift="false" key="Left">
+    if(Gump != null)
+      Gump.MoveSelected(-1, 0);
+  </Hotkey>
+  <Hotkey name="MoveRight" compile="false" control="false" alt="false" shift="false" key="Right">
+    if(Gump != null)
+    Gump.MoveSelected(1, 0);
+  </Hotkey>
+  <Hotkey name="MoveDown" compile="false" control="false" alt="false" shift="false" key="Down">
+    if(Gump != null)
+      Gump.MoveSelected(0, 1);
+  </Hotkey>
+  <Hotkey name="MoveUp" compile="false" control="false" alt="false" shift="false" key="Up">
+    if(Gump != null)
+      Gump.MoveSelected(0,-1);
+  </Hotkey>  
+  <Hotkey name="MoveLeftBig" compile="false" control="false" alt="false" shift="true" key="Left">
+    if(Gump != null)
+    Gump.MoveSelected(-10, 0);
+  </Hotkey>
+  <Hotkey name="MoveRightBig" compile="false" control="false" alt="false" shift="true" key="Right">
+    if(Gump != null)
+    Gump.MoveSelected(10, 0);
+  </Hotkey>
+  <Hotkey name="MoveDownBig" compile="false" control="false" alt="false" shift="true" key="Down">
+    if(Gump != null)
+    Gump.MoveSelected(0, 10);
+  </Hotkey>
+  <Hotkey name="MoveUpBig" compile="false" control="false" alt="false" shift="true" key="Up">
+    if(Gump != null)
+    Gump.MoveSelected(0, -10);
+  </Hotkey>  
+  <Hotkey name="Undo" compile="false" control="true" alt="false" shift="false" key="Z">
+    if(Gump != null)
+      Designer.Undo();
+  </Hotkey>
+  <Hotkey name="Redo" compile="false" control="true" alt="false" shift="false" key="Y">
+    if(Gump != null)
+      Designer.Redo();
+  </Hotkey>
+  <Hotkey name="Delete" compile="false" control="false" alt="false" shift="false" key="Delete">
+    if(Gump != null)
+      Gump.DeleteSelected();
+  </Hotkey>
+  <Hotkey name="Save" compile="true" control="true" alt="false" shift="false" key="S">
+    if (Gump != null)
+    {
+    SaveFileDialog saveFileDialog = new SaveFileDialog();
+
+    if (string.IsNullOrEmpty(Gump.FileName))
+    {
+    saveFileDialog.Filter = "RunUO: GDK files(*.gdk)|*.gdk";
+    DialogResult res = saveFileDialog.ShowDialog(Designer.Parent as Form);
+
+    if (res == DialogResult.OK)
+    {
+    Gump.Save(saveFileDialog.FileName);
+    }
+    }
+    else
+    {
+    Gump.Save(Gump.FileName);
+    }
+    }
+  </Hotkey>
+</Hotkeys>

@@ -1,0 +1,290 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Font Name="Tahoma" Size="8.25" />
+  <Class Name="Ultima.BodyConverter">
+    <Position X="11.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Animations.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAQAAAAAAAAAAAAAAAAIAQAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ultima.Animations">
+    <Position X="18.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Animations.cs</FileName>
+      <HashCode>AAAIAAAAAAAEgAEAEAAAAgAAgAAAAAAAAAAEAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ultima.Frame">
+    <Position X="11.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Animations.cs</FileName>
+      <HashCode>AAAAAAAABAAAAEAEAAsAAAAAAAAAAAAAAAAAAAAIAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ultima.BodyTableEntry">
+    <Position X="4.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Animations.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAARAAAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ultima.BodyTable">
+    <Position X="13.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Animations.cs</FileName>
+      <HashCode>AAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ultima.Art">
+    <Position X="6.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Art.cs</FileName>
+      <HashCode>gCAIAAAgAgAEAAAAAAAAAAAAQAAAAAEAAAIAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ultima.ASCIIFont">
+    <Position X="8.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>ASCIIFont.cs</FileName>
+      <HashCode>AAAAAAAABEAAAAABAAAAAAAAQAAACAAAAQAAAEAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ultima.ASCIIText">
+    <Position X="10" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>ASCIIFont.cs</FileName>
+      <HashCode>ABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ultima.CalibrationInfo">
+    <Position X="6.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>CalibrationInfo.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAYAAAEgAAAAEABAACAAKgBAAI=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ultima.Client">
+    <Position X="8.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Client.cs</FileName>
+      <HashCode>ABAQAAgEIAAAFAABACEIAMAgEAAAAUIIEAAEAAggEEA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ultima.FileIndex">
+    <Position X="10" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>FileIndex.cs</FileName>
+      <HashCode>AAAAAAAAEAAAAAAACAAAAAAAAAAIAAAAAAEAAAAAQAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ultima.Gumps">
+    <Position X="13.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Gumps.cs</FileName>
+      <HashCode>AAAIAAAAAAAEAAAIAAAAAAQCAAAAAAAAAAAAYAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ultima.Hues">
+    <Position X="8.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Hues.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAIAAAAAAI=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ultima.Hue">
+    <Position X="4.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Hues.cs</FileName>
+      <HashCode>EAAAAAAAEAAAAAAEAAAAAAQAAAAAAACAAEEAoAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ultima.LocationPointer">
+    <Position X="10" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>LocationPointer.cs</FileName>
+      <HashCode>AAAAAAAAAAgAAAAAAAAAoIADACIAAIAAgBAACxAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ultima.Map">
+    <Position X="11.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Map.cs</FileName>
+      <HashCode>gAAIDAAARAACAAABIEAAAFAYAAABAAOAEEIAgQAgAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ultima.Multis">
+    <Position X="4.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Multis.cs</FileName>
+      <HashCode>AAAIgAAgAAAEAAAAAAAAAAAgAACAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ultima.MultiComponentList">
+    <Position X="13.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Multis.cs</FileName>
+      <HashCode>AAAAAAAABBgAIAAFEAIAAEAQAAABAAKAAAAAAAAIAAA=</HashCode>
+    </TypeIdentifier>
+    <NestedTypes>
+      <Struct Name="Ultima.MultiComponentList.MultiTileEntry" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Multis.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+  </Class>
+  <Class Name="Ultima.StringEntry">
+    <Position X="6.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>StringEntry.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAgAAAEAAAACAAAAAAAAAAAAACAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ultima.StringList">
+    <Position X="8.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>StringList.cs</FileName>
+      <HashCode>AAAAAAAACAAAAChAAAAgQAAAAAAAAAAAAABAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ultima.Textures">
+    <Position X="10" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Textures.cs</FileName>
+      <HashCode>AAAIAAACAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ultima.TileData">
+    <Position X="11.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>TileData.cs</FileName>
+      <HashCode>AAAAAAAAAAAACIAAQAABAABAAAAgAAAAAAACAAAAAAQ=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ultima.HuedTileList">
+    <Position X="6.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>TileList.cs</FileName>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAARAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ultima.TileList">
+    <Position X="13.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>TileList.cs</FileName>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAARAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ultima.TileMatrix">
+    <Position X="4.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>TileMatrix.cs</FileName>
+      <HashCode>iAAAAHAANCBIABABoAAIQMIkAAAAQACAQAIEABAACgA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ultima.TileMatrixPatch">
+    <Position X="6.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>TileMatrixPatch.cs</FileName>
+      <HashCode>gIAAAAAAAAQAAABAAgAAAAAAAAAAAAAAgAAAAAAEAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ultima.UnicodeFonts">
+    <Position X="8.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>UnicodeFont.cs</FileName>
+      <HashCode>AAAAAAAAAAIAAAAAAAAAAAAAQQAAAAAACAACAEAQAQA=</HashCode>
+    </TypeIdentifier>
+    <NestedTypes>
+      <Class Name="Ultima.UnicodeFonts.CharInfo" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>UnicodeFont.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="Ultima.UnicodeFonts.FontSet" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>UnicodeFont.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+  </Class>
+  <Class Name="Ultima.Verdata">
+    <Position X="10" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Verdata.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAgQAAQAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.WindowProcessStream">
+    <Position X="2.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>WindowProcessStream.cs</FileName>
+      <HashCode>CQAAAAAAIAAAAAAAAAAAAAAAAAAAECAAAAAACAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.ProcessStream">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>ProcessStream.cs</FileName>
+      <HashCode>AAAgAAAAACAAUAEgGAAQICBgABAAEAAAAiAAAAEIACA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="Ultima.Entry3D">
+    <Position X="4.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>FileIndex.cs</FileName>
+      <HashCode>AAAAAAAAAAAEAAAAAEAAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Ultima.LandData">
+    <Position X="11.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>TileData.cs</FileName>
+      <HashCode>EAAABAAAAEAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Ultima.ItemData">
+    <Position X="10" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>TileData.cs</FileName>
+      <HashCode>EAAABAIABEAAAABBgAAAAAQEACQAgAgAAAAggAAAQAA=</HashCode>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Ultima.StaticTile">
+    <Position X="13.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>TileMatrix.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAEEAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Ultima.HuedTile">
+    <Position X="8.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>TileMatrix.cs</FileName>
+      <HashCode>CAAAAAAAAAAAhAAAAAAAAAAAQAAAAAAAAAEEAAAAAAE=</HashCode>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Ultima.Tile" BaseTypeListCollapsed="true">
+    <Position X="4.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>TileMatrix.cs</FileName>
+      <HashCode>AAAAAAAAgAAAhAQAAAAAAAAAQAAAAAAAAAAEAAAAAAE=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Struct>
+  <Struct Name="Ultima.Entry5D">
+    <Position X="6.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Verdata.cs</FileName>
+      <HashCode>AAAAAAAAAAAEAAAAAEAAAAAAACAAAAAABAAAAAABAAA=</HashCode>
+    </TypeIdentifier>
+  </Struct>
+  <Enum Name="Ultima.TileFlag">
+    <Position X="4.75" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>TileData.cs</FileName>
+      <HashCode>BAAABGQAARAAQABAiIAAQAAMACAIAAwEFAAgDgOAQAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+</ClassDiagram>
